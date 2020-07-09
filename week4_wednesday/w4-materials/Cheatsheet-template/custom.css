@@ -1,0 +1,56 @@
+/* Style sheet for cheat sheet*/
+@media all {
+h1 {
+  font-family: 'Google Sans',sans-serif;
+}
+
+.rendered_html h2 {
+  font-family: 'Google Sans',sans-serif;
+  background-color: #AECBFA !important;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 14px;
+}
+
+pre {
+  font-size: 12px;
+}
+
+.prompt {
+  display: None;
+}
+
+.container {
+  column-count: 3;
+  margin: 0;
+}
+
+div.cell {
+  padding: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+div#notebook {
+  padding: 0;
+}
+
+.anchor-link {
+  display: None;
+}
+
+small {
+  line-height: 6px;
+}
+
+.rendered_html * + p {
+  margin-top: 0em;
+}
+
+div.text_cell_render {
+  padding: 0;
+}
+}
